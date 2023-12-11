@@ -1,0 +1,153 @@
+body{
+    font-family: Roboto;
+}
+ul {
+    list-style-type: none;
+}
+.first a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px 300px;
+    padding-bottom: 100px;
+}
+.headerlogo {
+    font-size: 24px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlinks{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content button{
+    padding: 10px 25px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content img {
+    height: 280px;
+    border-radius: 10px;
+}
+
+.image img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 350px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: min-content;
+
+}
+
+.image p{
+    text-align: center;
+}
+
+.third {
+    padding: 0px 350px;
+    background-color: #e5e7eb;
+    padding: 50px 350px;
+}
+
+.third .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight:lighter ;
+    text-align: left;
+}
+.third p {
+    text-align: end;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.fourth {
+    padding: 75px 300px;
+}
+
+.cta{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+}
+.text {
+    color: white;
+}
+.text p{
+    margin: 0px;
+}
+
+.text .heading {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.cta button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 5px 15px;
+    font-weight: bold;
+}
